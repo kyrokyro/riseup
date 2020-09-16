@@ -27,8 +27,7 @@ body {
 }
 
 .btn-spring {
-    background: #0ef6cb;
-    /* background: #24EBAF; */
+    background: #bfdbab;
     color: #000;
     font-size: 1.4rem;
     font-weight: 400;
@@ -41,7 +40,7 @@ body {
 
 .btn-spring:hover {
     color: #000;
-    background: #10d3af;
+    background: #a8cb8f;
 }
 
 .mobile-screenshot > img:first-child {
@@ -96,5 +95,5 @@ svg.bg-light * {
 }
 
 .icon.icon-xlg {
-    height: 6.5rem;
+    height: 6rem;
 }
