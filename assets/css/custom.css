@@ -94,3 +94,7 @@ svg.bg-primary-alt * {
 svg.bg-light * {
     fill: #fafafa !important;
 }
+
+.icon.icon-xlg {
+    height: 6.5rem;
+}

@@ -50,30 +50,29 @@
 
 
     <!-- Content -->
-    <div data-overlay class="bg-black text-light o-hidden position-relative">
-        <section class="o-hidden d-flex flex-column">
+    <div data-overlay class=" text-light o-hidden position-relative">
+        <section class="bg-black o-hidden d-flex flex-column has-divider jarallax" data-jarallax data-speed="0.2">
+            <img src="/assets/img/backgrounds/header-cover.png" class="jarallax-img opacity-20">
             <div class="container">
                 <!-- Hide on Wider than LG -->
                 <div class="d-lg-none">
                     <div class="row">
                         <div class="col">
-                            <img src="/assets/img/profile/kyrillos-samaan.png" height="100" alt="Kyrillos Samaan" />
-                            <h1 class="h3 text-black questrial"><a href="https://www.linkedin.com/in/kyrillos-samaan/" target="_blank" class="questrial">Kyrillos Samaan</a></h1>
-                            <h1 class="display-4">8 years of enterprise and startup product design experience</h1>
-                            <a href="/assets/files/CV-Kyrillos-Samaan.pdf" target="_blank" class="btn btn-lg btn-spring mr-1"><img class="icon bg-black" src="/assets/img/icons/theme/files/selected-file.svg" data-inject-svg /> View Resumé</a>
+                            <img class="icon icon-xlg mb-4" src="/assets/img/logos/riseup.png" />
+                            <h1 class="display-4">20 years of residential &amp; commercial construction experience</h1>
+                            <a href="/assets/files/CV-Kyrillos-Samaan.pdf" target="_blank" class="btn btn-lg btn-spring mr-1"><img class="icon bg-black" src="/assets/img/icons/theme/files/selected-file.svg" data-inject-svg /> Get a Quote</a>
                         </div>
                     </div>
                 </div>
                 <!-- Hide on Smaller than LG-->
                 <div class="d-none d-lg-block">
                     <div class="row">
-                        <div class="col-8">
-                            <h1 class="h3 text-black questrial"><a href="https://www.linkedin.com/in/kyrillos-samaan/" target="_blank" class="questrial">Kyrillos Samaan</a></h1>
-                            <h1 class="display-3">8 years of enterprise and startup product design experience</h1>
-                            <a href="/assets/files/CV-Kyrillos-Samaan.pdf" target="_blank" class="btn btn-lg btn-spring mr-1"><img class="icon bg-black" src="/assets/img/icons/theme/files/selected-file.svg" data-inject-svg /> View Resumé</a> <a href="https://www.linkedin.com/in/kyrillos-samaan/detail/recent-activity/shares/" target="_blank" class="mx-3"><img class="icon icon-lg" src="/assets/img/icons/social/linkedin.svg" data-inject-svg /><span class="ml-2 lead">23k Followers</span></a>
+                        <div class="col-9">
+                            <img class="icon icon-xlg mb-6" src="/assets/img/logos/riseup.png" />
+                            <h1 class="display-3">20 years of residential &amp; commercial construction experience</h1>
+                            <a href="/assets/files/CV-Kyrillos-Samaan.pdf" target="_blank" class="btn btn-lg btn-spring mr-1"><img class="icon bg-black" src="/assets/img/icons/theme/files/selected-file.svg" data-inject-svg /> Get a Quote</a>
                         </div>
                         <div class="col">
-                            <img src="/assets/img/profile/kyrillos-samaan.png" class="d-none d-sm-block" alt="Kyrillos Samaan" />
                         </div>
                     </div>
                 </div>
@@ -87,7 +86,7 @@
                             <img class="icon bg-light" src="/assets/img/icons/theme/design/select.svg" data-inject-svg />
                         </div>
                         <div>
-                            <h4 class="mb-2">Facilitation</h4>
+                            <h4 class="mb-2">Outdoor Entertainment</h4>
                             <p class="lead pr-xl-4">Design Thinking at every level of the business &amp; product lifecycle</p>
                         </div>
                     </div>
@@ -96,7 +95,7 @@
                             <img class="icon bg-light" src="/assets/img/icons/theme/design/bezier-curve.svg" data-inject-svg />
                         </div>
                         <div>
-                            <h4 class="mb-2">Precision</h4>
+                            <h4 class="mb-2">Commercial Fit-outs</h4>
                             <p class="lead pr-xl-4">Serious attention to visual detail and polished UI design</p>
                         </div>
                     </div>
@@ -105,17 +104,18 @@
                             <img class="icon bg-light" src="/assets/img/icons/theme/code/code.svg" data-inject-svg />
                         </div>
                         <div>
-                            <h4 class="mb-2">Development</h4>
+                            <h4 class="mb-2">Residential Extensions</h4>
                             <p class="lead pr-xl-4">A background in dev, enabling fluent design/engineering collaboration</p>
                         </div>
                     </div>
                 </div>
 
             </div>
+            <div class="divider">
+                <img src="/assets/img/dividers/divider-1.svg" class="bg-primary-alt" data-inject-svg />
+            </div>
         </section>
-        <div class="divider flip-x">
-            <img src="/assets/img/dividers/divider-1.svg" class="bg-primary-alt" data-inject-svg />
-        </div>
+
     </div>
     <section class="text-center bg-primary-alt p-3 d-none d-md-block">
         <div class="container">
@@ -612,8 +612,5 @@
         window.addEventListener("load", function() {
             document.querySelector('body').classList.add('loaded');
         });
-
     </script>
-</body>
-
-</html>
+</body></html>
